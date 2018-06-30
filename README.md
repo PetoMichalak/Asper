@@ -1,5 +1,16 @@
 Asper - Esper for Android
 =====
+
+Work in progress - towards upgrade to Esper 7.1.0
+
+Dependencies to resolve:
+- ANTLR runtime library version 4.7 (antlr-runtime-4.7.jar)
+- CGLIB version 3.2.5 (cglib-nodep-3.2.5.jar)
+- SLF4J 1.7.25 (slf4j-api-1.7.25.jar)
+
+Test & Package.
+
+=====
 Esper is an open sourced, complex event processing engine for the Java, and .NET plattform.
 Complex event processing delivers high-speed processing of many events across all the layers of an organization, identifying the most meaningful 
 events within the event cloud, analyzing their impact, and taking subsequent action in real time.
