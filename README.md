@@ -10,7 +10,8 @@ Dependencies to resolve:
 
 Test & Package.
 
-=====
+---
+
 Esper is an open sourced, complex event processing engine for the Java, and .NET plattform.
 Complex event processing delivers high-speed processing of many events across all the layers of an organization, identifying the most meaningful 
 events within the event cloud, analyzing their impact, and taking subsequent action in real time.
