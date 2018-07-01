@@ -1,12 +1,18 @@
 Asper - Esper for Android
 =====
 
-Work in progress - towards upgrade to Esper 7.1.0
+AsperReborn : work in progress - towards upgrade to Esper 7.1.0
 
-Dependencies to resolve:
-- ANTLR runtime library version 4.7 (antlr-runtime-4.7.jar)
-- CGLIB version 3.2.5 (cglib-nodep-3.2.5.jar)
-- SLF4J 1.7.25 (slf4j-api-1.7.25.jar)
+- created an Android project (Java 1.8)
+- pulled esper source code to src/main/java/com/utils/esperSrc
+    + tons of errors from ConfigurationParser.java (esper/client)
+    + attempted to refactor package names automatically but no luck..
+- added libs
+    + antlr4-runtime-4.7.jar  
+    + commons-logging-1.2.jar 
+    + xerces-2.4.0.jar
+    + cglib-nodep-3.2.5.jar   
+    + slf4j-api-1.7.25.jar
 
 Test & Package.
 
